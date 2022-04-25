@@ -1,0 +1,36 @@
+body{
+    background-image: url("image/yugi-yu.jpg");
+    background-size: 100%;
+}
+
+img{
+    width: 130px;
+    height: 170px;
+}
+div
+{
+    text-align: center;
+    margin-top: 50px;
+}
+button {
+    background-color: transparent;
+    border: 2px solid #efeead;
+    color: #d4cc72;
+    position:absolute;
+    top:280px;
+    left: 560px;
+    font-size: 40px;
+    padding: 10px 15px;
+    text-align: center;
+    cursor: pointer;
+}
+.cards
+{
+    display: inline-block;
+    margin-top: auto;
+}
+.front
+{
+    display: none;
+    transform: rotateY(180deg);
+}
